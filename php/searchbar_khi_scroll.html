@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="”viewport”" content="”width"="device-width," initial-scale="1.0″" />
+	<link rel="stylesheet" type="text/css" href="../css/searchbar_khi_scroll.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+		integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+		crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+		integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+		crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+		integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+		crossorigin="anonymous"></script>
+	<title>Document</title>
+</head>
+
+<body>
+
+	<!--tao thanh slide down a bar on scroll page-->
+	<div id="slideDown">
+		<div class="col-lg-3">
+			<div id="thanh-menu">
+				<ul>
+					<li style="list-style: none;"><a id="title-scrolldown" href="#"> Danh mục sản phẩm &nbsp<i
+								class="fa fa-angle-down"></i></a>
+						<ul class="list-danhmuc">
+							<li><a href="php/Laptop,maytinhxachtay.php"><i class="fa fa-laptop"></i>&nbsp Laptop, Máy
+									tính
+									xách tay</a>
+
+							</li>
+							<li><a href="#"><i class="fa fa-usb" style="font-size: smaller"></i>&nbsp Phụ kiện laptop,
+									PC,
+									khác</a></li>
+							<li><a href="#"><i class="fa fa-desktop"></i>&nbsp PC Gaming, Streaming</a></li>
+							<li><a href="#"><i class="fa fa-server"></i>&nbsp PC đồ họa, máy chủ</a></li>
+							<li><a href="php/PC_vanphong,mini_PC.php"><i class="fa fa-desktop"></i>&nbsp PC văn phòng,
+									mini
+									PC</a>
+							</li>
+							<li><a href="#"><i class="fa fa-microchip"></i>&nbsp Linh kiện máy tính</a></li>
+							<li><a href="#"><i class="fa fa-desktop"></i>&nbsp Màn hình máy tính</a></li>
+							<li><a href="#"><i class="fa fa-microphone"></i>&nbsp Loa, tai nghe, mic, webcam</a></li>
+							<li><a href="php/camera_quansat.php"><i class="fa fa-video-camera"></i>&nbsp Camera, TB an
+									ninh</a>
+							</li>
+							<li><a href="#"><i class="fa fa-save"></i>&nbsp Thiết bị lưu trữ, USB, thẻ</a></li>
+							<li><a href="#"><i class="fa fa-wifi"></i>&nbsp Thiết bị mạng, phần mềm</a></li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="col-lg-5">
+			<div class="search-container">
+				<form class="form-inline my-2 my-lg-0" action="search.php" method="get">
+					<input class="form-control mr-sm-2" type="search" name="search"
+						placeholder="Nhập tên sản phẩm, từ khóa cần tìm" aria-label="Search">
+					<button class="btn btn-outline-success my-2 my-sm-0" type="submit" name="timkiem"><i
+							class="fa fa-search"></i></button>
+				</form>
+			</div>
+		</div>
+		<div class="col-lg-4">
+			<div class="action-for-user">
+				<div class="action-item">
+					<div class="item4">
+						<span class="icon"><i class="fa fa-user"></i></span>
+						<span class="header-signin"> Đăng ký<br> Đăng nhập </span>
+					</div>
+					<div class="hoverlogin">
+						<span class="log-in">
+							<a href="../form register/dang_nhap.php">Đăng nhập</a>
+							<a href="../form register/dang_ky.php">Đăng ký</a>
+						</span>
+						<a href="#">
+							<div class="logingoogle">
+								<div class="iconlogin"><i class="fa fa-google"></i></div>
+								<div class="logintxt">Đăng nhập bằng Google</div>
+							</div>
+						</a>
+						<a href="#">
+							<div class="loginfb">
+								<div class="iconlogin"><i class="fa fa-facebook"></i></div>
+								<div class="logintxt">Đăng nhập bằng Facebook</div>
+							</div>
+						</a>
+						<a href="#">
+							<div class="loginzalo">
+								<div class="iconlogin"><i class="fa fa-comment"></i></div>
+								<div class="logintxt">Đăng nhập bằng Zalo</div>
+							</div>
+						</a>
+					</div>
+				</div>
+
+				<div class="line"></div>
+				<div class="action-item">
+					<div class="item5">
+						<div class="gio-hang">
+							<span class="icon"><i class="fa fa-shopping-bag"></i></span>
+							<a href="#">Giỏ hàng</a>
+						</div>
+						<div class="itemgiohang">
+							<p class="total"><b>Tổng cộng</b> :
+								<span class="red">0
+									<u>đ</u>
+								</span>
+							</p>
+							<span class="checkout">
+								<a href="#">Thanh toán ngay</a>
+							</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+
+</html>

@@ -1,0 +1,275 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+@media (min-width: 992px) {
+  #slideDown {
+    display: flex;
+    background-color: rgb(62, 112, 185);
+    padding: 5px 30px;
+    align-items: center;
+    position: fixed;
+    top: -80px;
+    width: 100%;
+    transition: top 0.3s;
+    z-index: 100;
+  }
+  /*dropdown danh muc*/
+  #thanh-menu #title-scrolldown {
+    background: #cc864c;
+    color: rgb(34, 58, 80);
+    text-align: center;
+    line-height: 35px;
+    font-size: 20px;
+    margin-top: 15px;
+  }
+  #thanh-menu ul li ul {
+    background: #098fc7;
+    list-style-type: none;
+    text-align: center;
+  }
+  #thanh-menu li {
+    display: inline-block;
+    font-size: 18px;
+    color: #efeffc;
+    width: 230px;
+    line-height: 35px;
+    position: relative;
+  }
+  #thanh-menu ul li a {
+    text-decoration: none;
+    color: aliceblue;
+    display: block;
+  }
+  #thanh-menu a:hover {
+    background: #f7f7f7;
+    color: #000000;
+  }
+  .list-danhmuc a {
+    font-size: 15px;
+    padding-left: 5px;
+  }
+  #thanh-menu li ul {
+    display: none;
+    position: absolute;
+  }
+  #thanh-menu li:hover > ul {
+    display: block;
+    text-align: left;
+    z-index: 20;
+  }
+
+  /*thanh menu*/
+  @media (min-width: 1200px) {
+    .search-container input[type="search"] {
+      width: 400px;
+      outline: none;
+      font-size: 15px;
+      padding: 5px;
+      border: none;
+      height: 35px;
+    }
+  }
+  @media (min-width: 992px) and (max-width: 1199.98px) {
+    .search-container input[type="search"] {
+      width: 280px;
+      outline: none;
+      font-size: 15px;
+      padding: 5px;
+      border: none;
+      height: 35px;
+    }
+  }
+  .search-container button {
+    padding: 5px 20px;
+    border: none;
+    background: #ddd;
+    font-size: 15px;
+    cursor: pointer;
+    height: 35px;
+  }
+  /*dang ky dang nhap*/
+  .action-for-user {
+    display: flex;
+  }
+  .line {
+    background: rgb(72, 31, 184);
+    height: 25px;
+    width: 1px;
+    margin: 12px;
+  }
+
+  /*phan dang ky dang nhap */
+  .hoverlogin a {
+    color: black;
+  }
+  .logingoogle {
+    margin-top: 5px;
+    display: flex;
+  }
+  .logingoogle .iconlogin {
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+    background: rgb(236, 44, 44);
+    height: 40px;
+    width: 40px;
+    display: inline-block;
+    text-align: center;
+    line-height: 40px;
+  }
+  .logingoogle .logintxt {
+    background: rgb(243, 84, 56);
+    text-align: center;
+    border-bottom-right-radius: 2px;
+    border-top-right-radius: 2px;
+    line-height: 40px;
+    height: 40px;
+    width: 250px;
+  }
+  /*login with fb*/
+  .loginfb {
+    margin-top: 5px;
+    display: flex;
+  }
+  .loginfb .iconlogin {
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+    background: rgb(20, 58, 129);
+    height: 40px;
+    width: 40px;
+    display: inline-block;
+    text-align: center;
+    line-height: 40px;
+  }
+  .loginfb .logintxt {
+    background: rgb(45, 78, 148);
+    text-align: center;
+    border-bottom-right-radius: 2px;
+    border-top-right-radius: 2px;
+    line-height: 40px;
+    height: 40px;
+    width: 250px;
+  }
+  /*login with zalo*/
+  .loginzalo {
+    margin-top: 5px;
+    display: flex;
+  }
+  .loginzalo .iconlogin {
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+    background: rgb(44, 105, 236);
+    height: 40px;
+    width: 40px;
+    display: inline-block;
+    text-align: center;
+    line-height: 40px;
+  }
+  .loginzalo .logintxt {
+    background: rgb(75, 134, 245);
+    text-align: center;
+    border-bottom-right-radius: 2px;
+    border-top-right-radius: 2px;
+    line-height: 40px;
+    height: 40px;
+    width: 250px;
+  } /*hfhfhfhfh*/
+  .log-in a {
+    border-radius: 2px;
+    background: rgb(253, 222, 47);
+    text-align: center;
+    padding: 10px;
+    margin-top: 5px;
+  }
+  .item4 {
+    align-items: center;
+    display: flex;
+    padding: 5px;
+    position: relative;
+  }
+  .action-item .hoverlogin a {
+    display: block;
+    text-decoration: none;
+  }
+  .header-signin {
+    color: white;
+    display: block;
+    padding-left: 10px;
+  }
+  .hoverlogin {
+    display: none;
+    position: absolute;
+    background-color: whitesmoke;
+  }
+  .action-item:hover .hoverlogin {
+    display: block;
+    width: 280px;
+    height: 220px;
+    border: 1px solid thistle;
+    z-index: 40;
+  }
+  .action-item .icon {
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    background: whitesmoke;
+    text-align: center;
+  }
+
+  /*phan gio hang */
+  .itemgiohang.checkout {
+    display: block;
+  }
+  .checkout a {
+    text-decoration: none;
+    color: white;
+    border: none;
+    background: red;
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    height: 35px;
+    line-height: 35px;
+  }
+  .itemgiohang .red {
+    color: red;
+  }
+  .item5 .gio-hang a {
+    text-decoration: none;
+    color: white;
+    padding-left: 10px;
+  }
+  .gio-hang {
+    position: relative;
+    display: flex;
+    padding: 5px;
+    align-items: center;
+  }
+  .itemgiohang {
+    display: none;
+    position: absolute;
+    background-color: whitesmoke;
+    padding: 10px;
+  }
+  .item5:hover .itemgiohang {
+    display: block;
+    width: 280px;
+    height: 100px;
+    margin-left: -180px;
+  }
+  .gio-hang .icon {
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    background: whitesmoke;
+    text-align: center;
+    display: block;
+  }
+}
+@media (max-width: 991.98px) {
+  #slideDown {
+    display: none;
+  }
+}

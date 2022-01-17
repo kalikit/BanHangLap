@@ -1,0 +1,163 @@
+<!doctype html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="../css/header.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+	<meta name=”viewport” content=”width=device-width, initial-scale=1.0″>
+	<meta charset="utf-8">
+	<title>Untitled Document</title>
+</head>
+
+<body>
+	
+	<div class="header">
+		<div class="col-3">
+		  <!------- Logo------->
+		  <img src="../images/logoweb.png" class="img-fluid" alt="" style="margin: 15px 15px; height: 130px; width: 220px;">
+		</div>
+		<div class="col-9">
+		  <!-------User action --------->
+		  <div class="user-action">
+			<div class="user-action-hotline">
+			  <div class="user-action-hotline-title"> <span class="icon-phone"><i class="fa fa-phone"></i></span> <span class="header-hotline"> Mua hàng online <b>1900.1905</b> </span> </div>
+			  <div class="user-action-item">
+				<div class="item"> <a href="#"> <span class="hotline-number">1</span> <span>Mua hàng trực tuyến (8h - 21h)</span> </a> </div>
+				<div class="item"> <a href="#"> <span class="hotline-number">2</span> <span>Hỗ trợ kỹ thuật (8h - 21h)</span> </a> </div>
+				<div class="item"> <a href="#"> <span class="hotline-number">3</span> <span>Dịch vụ kỹ thuật - bảo hành (8h - 17h30)</span> </a> </div>
+				<div class="item"> <a href="#"> <span class="hotline-number">4</span> <span>Chăm sóc khách hàng (7h - 17h30)</span> </a> </div>
+			  </div>
+			</div>
+			<div class="line-doc"></div>
+			<div class="user-action-login">
+			  <div class="user-action-login-item">
+				<div class="user-action-login-item-title"> <span class="icon-user"><i class="fa fa-user"></i></span>  <span class="header-signin"> Đăng ký<br> Đăng nhập </span> </div>
+				<div class="user-action-login-item-hover"> <span class="login"> <a href="../form register/dang_nhap.php" >Đăng nhập</a>
+																				<a href="../form register/dang_ky.php" >Đăng ký</a>
+				  </span> <a href="#">
+					<div class="login-google">
+					  <div class="icon-login"><i class="fa fa-google"></i></div>
+					  <div class="login-txt">Đăng nhập bằng Google</div>
+					</div>
+				  </a> <a href="#">
+					<div class="login-fb">
+					  <div class="icon-login"><i class="fa fa-facebook"></i></div>
+					  <div class="login-txt">Đăng nhập bằng Facebook</div>
+					</div>
+				  </a> <a href="#">
+					<div class="login-zalo">
+					  <div class="icon-login"><i class="fa fa-comment"></i></div>
+					  <div class="login-txt">Đăng nhập bằng Zalo</div>
+					</div>
+				  </a> </div>
+			  </div>
+			</div>
+			<div class="line-doc"></div>
+			<div class="user-action-card">
+			  <div class="user-action-inforcard"> <span class="icon-bag"><i class="fa fa-shopping-bag"></i></span> <a href="add_cart.php">Giỏ hàng</a> </div>
+			  <div class="user-action-card-total">
+				<p class="total"><b>Tổng cộng</b> : <span class="red">0 <u>đ</u></span></p>
+				<span class="checkout"> <a href="#">Thanh toán ngay</a></span>
+			  </div>
+			</div>
+		  </div>
+		  <div class="w-100"></div>
+		  <div class="col">
+			<form class="form-inline my-2 my-lg-0" action="search.php" method="get">
+			  <input class="form-control mr-sm-2" type="search" name="search" placeholder="Nhập tên sản phẩm, từ khóa cần tìm" aria-label="Search">
+			  <button class="btn btn-outline-success my-2 my-sm-0" type="submit" name="timkiem"><i class="fa fa-search"></i></button>
+			</form>
+			<div class="infor-button">
+			  <p><a href="#"><i class="fa fa-rss"></i>&nbsp; Tin công nghệ</a></p>
+			  <p><a href="#"><i class="fa fa-tags"></i>&nbsp; Khuyến mại</a></p>
+			</div>
+		  </div>
+		</div>
+	  </div>
+	  <!------nav--------->
+	  <div class="wrapper">
+		<nav class="menu">
+		  <ul class="clearfix">
+			<li><a href="../index.php">Trang chủ</a></li>
+			<li>
+			  <a href="#">Danh mục sản phẩm <span class="arrow">&#9660;</span></a>
+			  <ul class="sub-menu">
+				<li><a href="Laptop,maytinhxachtay.php"><i class="fa fa-laptop"></i>&nbsp; Laptop, Máy tính xách tay</a></li>
+				<li><a href="#"><i class="fa fa-usb" style="font-size: smaller"></i>&nbsp; Phụ kiện laptop, PC, khác</a></li>
+				<li><a href="#"><i class="fa fa-desktop"></i>&nbsp; PC Gaming, Streaming</a></li>
+				<li><a href="#"><i class="fa fa-server"></i>&nbsp; PC đồ họa, máy chủ</a></li>
+				<li><a href="PC_vanphong,mini_PC.php"><i class="fa fa-desktop"></i>&nbsp; PC văn phòng, mini PC</a></li>
+				<li><a href="#"><i class="fa fa-microchip"></i>&nbsp; Linh kiện máy tính</a></li>
+				<li><a href="#"><i class="fa fa-desktop"></i>&nbsp; Màn hình máy tính</a></li>
+				<li><a href="#"><i class="fa fa-microphone"></i>&nbsp; Loa, tai nghe, mic, webcam</a></li>
+				<li><a href="camera_quansat.php"><i class="fa fa-video-camera"></i>&nbsp; Camera, TB an ninh</a></li>
+				<li><a href="#"><i class="fa fa-save"></i>&nbsp; Thiết bị lưu trữ, USB, thẻ</a></li>
+			  </ul>
+			</li>
+			<li><a href="#">Tin tức</a></li>
+			<li><a href="#">Liên hệ</a></li>
+			<li><a href="#">Trợ giúp</a></li>
+		  </ul>
+		</nav>
+	  </div>
+	
+	  <!---------Header Responsiv --------->
+	  <div class="header2">
+		<div class="col-3">
+		  <!------- Logo------->
+		  <img src="../images/logoweb.png" class="img-fluid" alt="" style="margin: 15px 15px; height: 130px; width: 220px;">
+		</div>
+		<div class="col-9">
+		  <div class="user-action-login-item-title"> <span class="icon-user"><i class="fa fa-user" style="font-size: 30px;"></i></span> <span class="signin"> <a href="../form register/dang_ky.php">Đăng ký</a> <a href="../form register/dang_nhap.php">Đăng nhập</a> </span> </div>
+		  <div class="line-doc"></div>
+		  <div class="user-action-inforcard"> <span class="icon-bag"><i class="fa fa-shopping-bag"  style="font-size: 30px;"></i></span> <a href="add_cart.php">Giỏ hàng</a> </div>
+		</div>
+	  </div>
+	  <div class="navig">
+		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+		  <form class="form-inline" action="php/search.php" method="get">
+			<input class="form-control mr-sm-2" type="search" name="search" placeholder="Nhập từ khóa cần tìm" aria-label="Search">
+			<button class="btn btn-outline-success my-2 my-sm-0" type="submit" name="timkiem"><i class="fa fa-search"></i></button>
+		  </form>
+		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		  </button>
+		  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+			<ul class="navbar-nav">
+			  <li class="nav-item active">
+				<a class="nav-link" href="../index.php">Trang chủ<span class="sr-only">(current)</span></a>
+			  </li>
+			  <li class="nav-item dropdown">
+				<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+				  Danh mục sản phẩm
+				</a>
+				<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+				  <a class="dropdown-item" href="Laptop,maytinhxachtay.php"><i class="fa fa-laptop"></i>&nbsp; Laptop, Máy tính xách tay</a>
+				  <a class="dropdown-item" href="#"><i class="fa fa-usb" style="font-size: smaller"></i>&nbsp; Phụ kiện laptop, PC, khác</a>
+				  <a class="dropdown-item" href="#"><i class="fa fa-desktop"></i>&nbsp; PC Gaming, Streaming</a>
+				  <a class="dropdown-item" href="#"><i class="fa fa-server"></i>&nbsp; PC đồ họa, máy chủ</a>
+				  <a class="dropdown-item" href="PC_vanphong,mini_PC.php"><i class="fa fa-desktop"></i>&nbsp; PC văn phòng, mini PC</a>
+				  <a class="dropdown-item" href="#"><i class="fa fa-microchip"></i>&nbsp; Linh kiện máy tính</a>
+				  <a class="dropdown-item" href="#"><i class="fa fa-desktop"></i>&nbsp; Màn hình máy tính</a>
+				  <a class="dropdown-item" href="#"><i class="fa fa-microphone"></i>&nbsp; Loa, tai nghe, mic, webcam</a>
+				  <a class="dropdown-item" href="camera_quansat.php"><i class="fa fa-video-camera"></i>&nbsp; Camera, TB an ninh</a>
+				  <a class="dropdown-item" href="#"><i class="fa fa-save"></i>&nbsp; Thiết bị lưu trữ, USB, thẻ</a>
+				</div>
+			  </li>
+			  <li class="nav-item">
+				<a class="nav-link" href="#">Tin tức</a>
+			  </li>
+			  <li class="nav-item">
+				<a class="nav-link" href="#">Liên hệ</a>
+			  </li>
+			  <li class="nav-item">
+				<a class="nav-link" href="#">Trợ giúp</a>
+			  </li>
+			</ul>
+		  </div>
+		</nav>
+	  </div>
+</body>
+</html>

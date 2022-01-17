@@ -1,0 +1,355 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	padding: 0;
+	margin: 0;
+}
+main{
+	background-color: whitesmoke;
+}
+.container .aside-left {
+	background-color: white;
+	height: auto;
+	margin-top: 10px;
+}
+.container .title-loc-sp {
+	margin: 25px 10px;
+	text-align: center;
+	border: thin solid grey;
+	border-radius: 5px;
+}
+.container .title-loc-sp p{
+	margin: 15px 0;
+	font-size: 17px;
+}
+.container #title{
+	font-size: 17px;
+	padding: 20px 10px 10px;
+}
+.container .line-ngang{
+	width: auto;
+	height: 1px;
+	background: lightslategray;
+	margin: 0 10px;
+}
+.container .list-choice{
+	margin: 20px 25px 40px;
+}
+.container .list-choice a{
+	list-style-type: none;
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+	font-size: 14px;
+}
+.container .list-choice li{
+	margin-bottom: 10px;
+	display: block;
+}
+.container .list-choice a:hover{
+	color: cadetblue;
+	font-size: 16px;
+}
+/*dinh dang cho list tu danh muc thu 2*/
+.container .list-choice2{
+	margin: 20px 25px 40px;
+}
+.container .list-choice2 a{
+	list-style-type: none;
+	text-decoration: none;
+	color: black;
+	font-size: 14px;
+}
+.container .list-choice2 li{
+	margin-bottom: 10px;
+	display: block;
+}
+.container .list-choice2 a:hover{
+	color: cadetblue;
+}
+.container #loc{
+	width: auto;
+	height: 30px;
+	background-color: rgb(67, 125, 231);
+	color: whitesmoke;
+	padding: 5px 70px;
+	font-size: 15px;
+	border-radius: 3px;
+	margin-top: 20px;
+}
+
+.container .aside-right{
+	background-color: white;
+	margin-top: 10px;
+}
+.label-product{
+	background-color: white;
+}
+.container .breadcrumb{
+	border-radius: 0px;
+	background-color: white;
+}
+.container .breadcrumb a{
+	text-decoration: none;
+	color: grey;
+}
+.container .total-product {
+	background-color: white;
+	margin-bottom: 10px;
+}
+.container .total-product #title_page{
+	font-size: 25px;
+	font-weight: 500;
+}
+.container .list-option{
+	background-color: tomato;
+}
+.container .list-option .col-8{
+	float: left;
+}
+.container .list-option .col-8 a{
+	border: 1px dashed rgb(56, 122, 221);
+	border-radius: 3px;
+	color: rgb(56, 122, 221);
+	padding: 6px 10px 6px 10px;
+	text-align: center;
+	text-decoration: none;
+	font-size: 13px;
+	float: left;
+	margin-right: 5px;
+}
+.container .list-option .col-8 a:hover{
+	background: rgb(29, 90, 180);
+	color: white;
+}
+.container .list-option{
+	background-color: 	#DDDDDD;
+	padding: 15px 10px;
+}
+.container .list-option .locsp, .tinhtrang{
+	font-size: 13px;
+	padding: 4px 0;
+}
+.list-product{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: stretch;
+	margin-top: 25px;
+	}
+.card .card-title a{
+	color: black;
+	text-decoration: none;
+	font-size: 15px;
+}
+.card .card-title{
+	max-height: 600px;
+	overflow: hidden;
+	max-width: 180px; 
+	margin-bottom: 25px;
+}
+.card  #giacu{
+	color: grey;
+	text-decoration-line: line-through;
+	font-size: 16px;
+}
+.card  #giamoi{
+	color: black;
+	font-size: 20px;
+}
+.card  p,  span{
+	margin-bottom: 10px;
+}
+.card .card-img-top{
+	width: auto; 
+	height: auto;  
+}
+/*------------------------*/
+.doc-them{
+	padding-top: 20px;
+	background: #FFFFFF;	
+	padding-bottom: 20px;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	width: auto;
+}
+.doc-them h3, #note1{
+	text-transform: uppercase;
+}
+.doc-them #note1{
+	font-weight: 700;
+}
+.doc-them .doc-them2{
+	padding-left: 20px;
+	padding-right: 20px
+}
+@media (min-width: 1200px) { 
+	.container .aside-right .col-5, .col-7{
+		display: none;
+	}
+	.container .card{
+		width: 12rem;
+	}
+	.aside-right2{
+		display: none;
+	}
+	/*----------Pagination-------------*/
+
+.pagin{
+	background: #ddddd4;
+	padding: 10px 0;
+	margin: 15px 0;
+}
+.pagin .row{
+	justify-content: flex-end;
+	margin-right: 30px;
+}
+.page-navi a{
+	border-radius: 3px;
+	color: rgb(56, 122, 221);
+	text-decoration: none;
+	border: 1px solid rgb(56, 122, 221);
+	font-size: 12px;
+	padding: 3px 7px;
+}
+.page-navi a:hover{
+	background: rgb(29, 90, 180);
+	color: white;
+	text-decoration: none;
+}
+.page-navi .first-page{
+	background: rgb(29, 90, 180);
+	color: white;
+}
+
+/*-----------------------------------------------*/
+}
+@media (min-width: 992px) and (max-width: 1199.98px) {
+	.container .aside-right .col-8, .col-4{
+		display: none;
+	}
+	.container .card{
+		width: 14rem;
+	}
+	.aside-right2{
+		display: none;
+	}
+	/*----------Pagination-------------*/
+
+.pagin{
+	background: #ddddd4;
+	padding: 10px 0;
+	margin: 15px 0;
+}
+.pagin .row{
+	justify-content: flex-end;
+	margin-right: 30px;
+}
+.page-navi a{
+	border-radius: 3px;
+	color: rgb(56, 122, 221);
+	text-decoration: none;
+	border: 1px solid rgb(56, 122, 221);
+	font-size: 15px;
+	padding: 3px 7px;
+}
+.page-navi a:hover{
+	background: rgb(29, 90, 180);
+	color: white;
+	text-decoration: none;
+}
+.page-navi .first-page{
+	background: rgb(29, 90, 180);
+	color: white;
+}
+
+/*-----------------------------------------------*/
+}
+@media (max-width: 991px) { 
+	.aside-left, .aside-right{
+		display: none;
+	}
+	.breadcrumb{
+		border-radius: 0px;
+		background-color: white;
+		font-size: 30px;
+	}
+	.breadcrumb a{
+		text-decoration: none;
+		color: grey;
+	}
+	.total-product {
+		background-color: white;
+		display: flex;
+		align-items: center;
+	}
+	.total-product #title_page{
+		font-size: 38px;
+		font-weight: 500;
+		margin-left: 15px;
+	}
+	.locsp{
+		font-size: 32px;
+		padding: 4px 5px;
+		margin-left: 30px;
+	}
+	.card{
+		width: 29.5rem;
+	}
+	.card .card-img-top{
+		width: auto; 
+		max-height: 500px;  
+	}
+	.card .card-title{
+		max-width: 29rem;
+	}
+	.card .card-title a, .card #tinhtrang{
+		font-size: 30px;
+	}
+	.card #giacu{
+		font-size: 26px;
+	}
+	.card #giamoi{
+		font-size: 34px;
+	}
+	/*----------Pagination-------------*/
+
+.pagin{
+	background: #ddddd4;
+	padding: 20px 0;
+	margin: 25px 0;
+}
+.pagin .row{
+	justify-content: flex-end;
+	margin-right: 30px;
+}
+.page-navi a{
+	border-radius: 3px;
+	color: rgb(56, 122, 221);
+	text-decoration: none;
+	border: 1px solid rgb(56, 122, 221);
+	font-size: 28px;
+	padding: 5px 15px;
+}
+.page-navi a:hover{
+	background: rgb(29, 90, 180);
+	color: white;
+	text-decoration: none;
+}
+.page-navi .first-page{
+	background: rgb(29, 90, 180);
+	color: white;
+}
+
+/*-----------------------------------------------*/
+	.doc-them{
+		font-size: 25px;
+	}
+}
+
+
+
+
+
+
+

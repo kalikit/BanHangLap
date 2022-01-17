@@ -1,0 +1,441 @@
+@media (min-width: 992px) {
+  .header {
+    background: #ffd89b;
+    background: -webkit-linear-gradient(to right, #ffd89b, #19547b);
+    background: linear-gradient(to right, #ffd89b, #19547b);
+    display: flex;
+  }
+  .header2,
+  .navig {
+    display: none;
+  }
+  /*--------User action-------*/
+  .user-action {
+    display: flex;
+    justify-content: space-around;
+    border: none;
+    border-radius: 20px;
+    background: rgb(42, 136, 139);
+    width: 550px;
+    padding: 10px;
+    margin: 20px 100px 15px;
+  }
+  .user-action-hotline .header-hotline {
+    color: white;
+    display: block;
+    padding-left: 10px;
+  }
+  .user-action-item .item .hotline-number {
+    border-radius: 2px;
+    text-align: center;
+    background: royalblue;
+    color: #f0f0ec;
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    margin-right: 5px;
+    line-height: 18px;
+  }
+  .user-action-item .item {
+    display: block;
+    padding: 10px;
+    border-top: 1px solid #e8e8e8;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    cursor: pointer;
+  }
+  .user-action-item .item:hover {
+    background: rgb(209, 221, 155);
+  }
+  .user-action-item a {
+    color: black;
+  }
+  .user-action-hotline-title {
+    display: flex;
+    padding: 5px;
+    align-items: center;
+  }
+  .user-action-hotline b {
+    display: block;
+  }
+  .user-action-item {
+    display: none;
+    position: absolute;
+    background-color: whitesmoke;
+    border-radius: 5px;
+  }
+  .user-action-hotline:hover .user-action-item {
+    display: block;
+    width: 350px;
+    height: auto;
+    border: 1px solid thistle;
+    z-index: 4;
+  }
+  .user-action-hotline .icon-phone {
+    border-radius: 45px;
+    height: 45px;
+    width: 45px;
+    background: whitesmoke;
+    line-height: 45px;
+    text-align: center;
+  }
+  .line-doc {
+    background: rgb(95, 47, 226);
+    height: 30px;
+    width: 1px;
+    margin: 12px;
+  }
+  /*phan dang ky dang nhap */
+  .user-action-login-item-hover a {
+    color: black;
+  }
+  .login-google {
+    margin-top: 5px;
+    display: flex;
+  }
+  .login-google .icon-login {
+    background: rgb(236, 44, 44);
+    height: 40px;
+    width: 40px;
+    display: inline-block;
+    text-align: center;
+    line-height: 40px;
+  }
+  .login-google .login-txt {
+    background: rgb(243, 84, 56);
+    text-align: center;
+    line-height: 40px;
+    height: 40px;
+    width: 250px;
+  }
+  /*login with fb*/
+  .login-fb {
+    margin-top: 5px;
+    display: flex;
+  }
+  .login-fb .icon-login {
+    background: rgb(20, 58, 129);
+    height: 40px;
+    width: 40px;
+    display: inline-block;
+    text-align: center;
+    line-height: 40px;
+  }
+  .login-fb .login-txt {
+    background: rgb(45, 78, 148);
+    text-align: center;
+    line-height: 40px;
+    height: 40px;
+    width: 250px;
+  }
+  /*login with zalo*/
+  .login-zalo {
+    margin-top: 5px;
+    display: flex;
+  }
+  .login-zalo .icon-login {
+    background: rgb(44, 105, 236);
+    height: 40px;
+    width: 40px;
+    display: inline-block;
+    text-align: center;
+    line-height: 40px;
+  }
+  .login-zalo .login-txt {
+    background: rgb(75, 134, 245);
+    text-align: center;
+    line-height: 40px;
+    height: 40px;
+    width: 250px;
+  }
+  .login a {
+    background: rgb(253, 222, 47);
+    text-align: center;
+    padding: 10px;
+    margin-top: 5px;
+  }
+  .user-action-login-item-title {
+    align-items: center;
+    display: flex;
+    padding: 5px;
+    position: relative;
+  }
+  .user-action-login-item .user-action-login-item-hover a {
+    display: block;
+    text-decoration: none;
+  }
+  .user-action-login .header-signin {
+    color: white;
+    display: block;
+    padding-left: 10px;
+  }
+  .user-action-login-item-hover {
+    display: none;
+    position: absolute;
+    background-color: whitesmoke;
+    border-radius: 5px;
+  }
+  .user-action-login-item:hover .user-action-login-item-hover {
+    display: block;
+    width: 280px;
+    height: 220px;
+    border: 1px solid thistle;
+    z-index: 40;
+  }
+  .user-action-login-item .icon-user {
+    border-radius: 45px;
+    height: 45px;
+    width: 45px;
+    line-height: 45px;
+    background: whitesmoke;
+    text-align: center;
+  }
+  /*phan gio hang */
+  .user-action-card-total .checkout {
+    display: block;
+  }
+  .checkout a {
+    text-decoration: none;
+    color: white;
+    border: none;
+    background: red;
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    height: 35px;
+    line-height: 35px;
+  }
+  .user-action-card-total .red {
+    color: red;
+  }
+  .user-action-card .user-action-inforcard a {
+    text-decoration: none;
+    color: white;
+    padding-left: 10px;
+  }
+  .user-action-inforcard {
+    position: relative;
+    display: flex;
+    padding: 5px;
+    align-items: center;
+  }
+  .user-action-card-total {
+    display: none;
+    position: absolute;
+    background-color: rgb(225, 224, 237);
+    padding: 10px;
+  }
+  .user-action-card:hover .user-action-card-total {
+    display: block;
+    width: 280px;
+    height: 100px;
+    margin-left: -100px;
+    z-index: 20;
+    border-radius: 5px;
+  }
+  .user-action-inforcard .icon-bag {
+    border-radius: 45px;
+    height: 45px;
+    width: 45px;
+    line-height: 45px;
+    background: whitesmoke;
+    text-align: center;
+    display: block;
+  }
+  /*-----------thanh tim kiem--------*/
+  @media (min-width: 1200px) {
+    .col input[type="search"] {
+      width: 500px;
+      outline: none;
+      font-size: 15px;
+      padding: 5px;
+      border: none;
+      height: 35px;
+    }
+  }
+  @media (min-width: 992px) and (max-width: 1199.98px) {
+    .col input[type="search"] {
+      width: 300px;
+      outline: none;
+      font-size: 15px;
+      padding: 5px;
+      border: none;
+      height: 35px;
+    }
+  }
+  .col button {
+    padding: 5px 20px;
+    border: none;
+    background: #ddd;
+    font-size: 15px;
+    cursor: pointer;
+    height: 35px;
+  }
+  .infor-button p {
+    border: none;
+    font-size: 15px;
+    color: white;
+    background: rgb(42, 136, 139);
+    height: 35px;
+    line-height: 25px;
+    text-align: center;
+    padding: 5px 12px 5px 12px;
+    display: inline-block;
+  }
+  .col {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .infor-button a {
+    text-decoration: none;
+    color: ghostwhite;
+  }
+
+  /*------nav----------*/
+
+  .wrapper {
+    width: 100%;
+    background: whitesmoke;
+  }
+  /*----- Phần menu -----*/
+  .menu {
+    width: 1000px;
+    margin: 0px auto;
+    background: whitesmoke;
+    height: 50px;
+    margin-bottom: 20px;
+  }
+  .menu li {
+    margin: 0px;
+    list-style: none;
+  }
+  .menu a {
+    transition: all linear 0.15s;
+    color: #919191;
+    text-decoration: none;
+  }
+  .menu li:hover > a {
+    text-decoration: none;
+    color: white;
+  }
+  .menu .arrow {
+    font-size: 11px;
+  }
+  /*----- css cho phần menu cha -----*/
+  .menu > ul > li {
+    float: left;
+    display: inline-block;
+    position: relative;
+    font-size: 18px;
+  }
+  .menu > ul > li > a {
+    padding: 10px 40px;
+    display: inline-block;
+    color: rgb(75, 134, 245);
+  }
+  .menu > ul > li:hover > a,
+  .menu > ul > .current-item > a {
+    background: rgb(75, 134, 245);
+  }
+  /*----css cho menu con----*/
+  .menu li:hover .sub-menu {
+    z-index: 99;
+    opacity: 1;
+  }
+  .sub-menu {
+    width: 120%;
+    padding: 5px 0px;
+    position: absolute;
+    left: 0px;
+    z-index: -1;
+    opacity: 0;
+    transition: opacity linear 0.15s;
+    background: whitesmoke;
+  }
+  .sub-menu li {
+    display: block;
+    font-size: 16px;
+  }
+  .sub-menu li a {
+    padding: 10px 30px;
+    display: block;
+  }
+  .sub-menu li a:hover {
+    background: rgb(75, 134, 245);
+  }
+}
+@media (max-width: 992px) {
+  .header2 {
+    background: #ffd89b;
+    background: -webkit-linear-gradient(to right, #ffd89b, #19547b);
+    background: linear-gradient(to right, #ffd89b, #19547b);
+    display: flex;
+  }
+  .header,
+  .wrapper {
+    display: none;
+  }
+  .col-9 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .user-action-login-item-title {
+    align-items: center;
+    display: flex;
+  }
+  .user-action-login-item-title .icon-user {
+    border-radius: 50%;
+    height: 90px;
+    width: 90px;
+    line-height: 90px;
+    background: whitesmoke;
+    text-align: center;
+  }
+  .signin a {
+    display: block;
+    padding-left: 10px;
+    text-decoration: none;
+    color: white;
+    font-size: 28px;
+  }
+  .line-doc {
+    background: rgb(95, 47, 226);
+    height: 80px;
+    width: 1px;
+    margin: 12px;
+  }
+  .user-action-inforcard a {
+    text-decoration: none;
+    color: white;
+    padding-left: 10px;
+    font-size: 28px;
+  }
+  .user-action-inforcard {
+    position: relative;
+    display: flex;
+    padding: 5px;
+    align-items: center;
+  }
+  .user-action-inforcard .icon-bag {
+    border-radius: 50%;
+    height: 90px;
+    width: 90px;
+    line-height: 90px;
+    background: whitesmoke;
+    text-align: center;
+    display: block;
+  }
+  .navig .navbar-toggler {
+    font-size: 38px;
+  }
+  .navig .navbar-nav,
+  .navig .dropdown-menu {
+    font-size: 30px;
+  }
+  .navig .form-control,
+  .navig .btn {
+    font-size: 30px;
+  }
+}

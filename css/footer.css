@@ -1,0 +1,212 @@
+
+@media (max-width: 990px) {
+    .footer-infor .container-fluid{
+		margin: 30px 0;
+	}
+	.container-fluid h5{
+		font-size: 32px;
+	}
+	.footer-infor .container-fluid .row{
+		padding: 0 50px;
+		background-color: white;
+		align-items: flex-start;
+	}
+	.footer-infor .col a{
+		text-decoration: none;
+		color: mediumpurple;
+		font-size: 30px;
+		/*transition: width 2s ease 0s;
+		-webkit-transition: border-bottom 2s ease 0s;*/
+	}
+	.footer-infor .col a:hover{
+		color: black;
+	}
+
+	/*------------footer----------*/
+	footer{
+		padding: 20px 50px;
+		background-color: #26272b;
+	}
+	footer p{
+		color: #818a91;
+		font-size: 30px;
+	}
+	footer .container-fluid .row{
+		flex-direction: column;
+	}
+	.container-fluid .row{
+		background-color:#26272b;
+		padding:25px 0 15px;
+		font-size:24px;
+		color:#737373;
+	 }
+	 .social-icons a{
+		color:#818a91;
+		font-size: 28px;
+		display:inline-block;
+		width:60px;
+	   height:60px;
+	   line-height:60px;
+	   background-color:#33353d;
+		text-align:center;
+		border-radius:100%;
+		-webkit-transition:all .2s linear;
+		transition:all .2s linear;
+	}
+	
+}
+
+@media (min-width: 991px) and (max-width: 1199.98px) { 
+	.footer-infor .container-fluid{
+		margin: 30px 0;
+	}
+	.footer-infor .container-fluid .row{
+		background-color: white;
+		align-items: flex-start;
+		padding: 0 50px;
+	}
+	.footer-infor .container-fluid .col-sm-6{
+		justify-content: space-between;
+	}
+	.footer-infor .col-sm-6 a{
+		text-decoration: none;
+		color: mediumpurple;
+		font-size: 18px;
+		/*transition: width 2s ease 0s;
+		-webkit-transition: border-bottom 2s ease 0s;*/
+	}
+	.footer-infor .col-sm-6 a:hover{
+		color: black;
+	}
+
+	/*------------footer----------*/
+	footer{
+		padding: 20px 50px;
+		background-color: #26272b;
+	}
+	footer .container-fluid .col-sm-6{
+		justify-content: space-between;
+	}
+	footer p{
+		color: #818a91;
+		font-size: 18px;
+	}
+
+	.container-fluid .row{
+		align-items: center;
+		background-color:#26272b;
+		padding:25px 0 15px;
+		font-size:18px;
+		color:#737373;
+	 }
+	 .social-icons a{
+		color:#818a91;
+		font-size:16px;
+		display:inline-block;
+		width:40px;
+	   height:40px;
+	   line-height:40px;
+	   background-color:#33353d;
+		text-align:center;
+		border-radius:100%;
+		-webkit-transition:all .2s linear;
+		transition:all .2s linear;
+	}
+ }
+@media (min-width: 1200px) {
+    .footer-infor .container-fluid{
+		margin: 30px 0 20px;
+	}
+	.footer-infor .container-fluid .row{
+		background-color: white;
+		align-items: flex-start;
+	}
+	.footer-infor .col a{
+		text-decoration: none;
+		color: mediumpurple;
+		font-size: 17px;
+		/*transition: width 2s ease 0s;
+		-webkit-transition: border-bottom 2s ease 0s;*/
+	}
+	.footer-infor .col a:hover{
+		color: black;
+	}
+
+	/*------------footer----------*/
+	footer .container-fluid{
+		padding: 0 40px;
+		background-color: #26272b;
+	}
+	footer .container-fluid .row{
+		align-items: flex-start;
+	}
+	footer p{
+		color: #818a91;
+		font-size: 16px;
+	}
+
+	.container-fluid .row{
+		align-items: center;
+		background-color:#26272b;
+		padding:25px 0 15px;
+		font-size:15px;
+		color:#737373;
+	 }
+	 .social-icons a{
+		color:#818a91;
+		font-size:16px;
+		display:inline-block;
+		width:40px;
+	   height:40px;
+	   line-height:40px;
+	   background-color:#33353d;
+		text-align:center;
+		border-radius:100%;
+		-webkit-transition:all .2s linear;
+		transition:all .2s linear;
+	}
+ }
+ 
+ .line-footer{
+	 width: auto;
+	 background-color: mediumslateblue;
+	 height: 1px;
+ }
+ .copyright-text{
+	 margin-left: 50px;
+ }
+ .container-fluid .social-icons{
+	 float: right;
+	 margin-right: 40px;
+ }
+ 
+ .social-icons
+ {
+	 list-style:none;
+ }
+ .social-icons li
+ {
+	 display:inline-block;
+ }
+ 
+ .social-icons a:active,.social-icons a:focus,.social-icons a:hover
+ {
+	 color:#fff;
+	 background-color:#29aafe
+ }
+ .social-icons a.facebook:hover
+ {
+	 background-color:#3b5998
+ }
+ .social-icons a.twitter:hover
+ {
+	 background-color:#00aced
+ }
+ .social-icons a.linkedin:hover
+ {
+	 background-color:#007bb6
+ }
+ .social-icons a.dribbble:hover
+ {
+	 background-color:#ea4c89
+ }
